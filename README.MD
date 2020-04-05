@@ -1,11 +1,11 @@
-#Discord log target for Yii2
+# Discord log target for Yii2
 
 This is the PHP [Yii2](https://github.com/yiisoft/yii2) plugin for sending log of a yii application through the Discord [WebHook API](https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
 
-###Important
+### Important
 You should avoid to use this target on a frequent events because of restriction in 30 messages per 60 seconds for the web-hooks.
 
-##Installation
+## Installation
 
 Execute following command in shell:
 ```shell
@@ -17,7 +17,7 @@ Or add following in your `composer.json` require section, and run `composer inst
 "betsuno/yii2-log-discord-target": "*"
 ```
 
-##Configuration and usage
+## Configuration and usage
 
 Add something as following in your yii config into the `components` section
 ```
