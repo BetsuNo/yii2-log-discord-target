@@ -1,0 +1,24 @@
+{
+    "name": "betsuno/yii2-log-discord-target",
+    "description": "Discord log target for Yii2",
+    "version": "1.0",
+    "type": "library",
+    "require": {
+        "ext-curl":          "*",
+        "ext-json":          "*",
+        "yiisoft/yii2":      "^2.0",
+        "restcord/restcord": "^0.3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "betsuno",
+            "email": "betsuno.git@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "betsuno\\yii\\log\\": "src/"
+        }
+    }
+}
